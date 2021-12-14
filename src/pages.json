@@ -1,0 +1,127 @@
+{
+	"pages": [
+		{
+			"path":"pages/home/index",
+			"style":{
+				"navigationBarTitleText": "首页"
+			}
+			
+		},
+		{
+			"path":"pages/horizontal/index",
+			"style":{
+				"navigationBarTitleText": "横屏"
+			}
+		},
+		{
+			"path":"pages/mine/index",
+			"style":{"navigationBarTitleText": "我的"}
+		},
+		{
+			"path":"pages/search/index",
+			"style":{
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		
+		{
+			"path":"pages/video/index",
+			"style":{"navigationBarTitleText": "视频"}
+		},
+		{
+			"path":"pages/album/index",
+			"style":{"navigationBarTitleText":" 专辑详情"}
+		},
+		{
+			"path":"pages/detail/Detail",
+			"style":{"navigationBarTitleText":"图片详情"}
+		},
+		{
+			"path":"pages/detail8/DetailTwo",
+			"style":{"navigationBarTitleText":"图片详情"}
+		},
+		{
+			"path":"pages/detail2/DetailCategory",
+			"style":{"navigationBarTitleText":"分类详情"}
+		},
+		{
+			"path":"pages/detail6/DetailImg",
+			"style":{
+				"navigationBarTitleText":"图片详情"
+			}
+		},
+		{
+			"path":"pages/detail7/DetailThree",
+			"style":{
+				"navigationBarTitleText":"图片详情"
+			}
+		},
+		{
+			"path":"pages/detail3/DetailCommend1",
+			"style":{
+				"navigationBarTitleText":"图片详情"
+			}
+		},
+		{
+			"path":"pages/detail4/DetailCommend2",
+			"style":{
+				"navigationBarTitleText":"图片详情"
+			}
+		},
+		{
+			"path":"pages/detail5/DetailCommend3",
+			"style":{
+				"navigationBarTitleText":"图片详情"
+			}
+		},
+		{
+			"path":"pages/videoPlay/index",
+			"style":{
+				"navigationBarTitleText":"视频详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懂你找图",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "",
+		"selectedColor": "",
+		"backgroundColor": "",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/icon/_home.png",
+				"selectedIconPath": "static/icon/home.png"
+			},
+			{
+				"pagePath": "pages/horizontal/index",
+				"text": "横屏",
+				"iconPath": "static/icon/_img.png",
+				"selectedIconPath": "static/icon/img.png"
+			},{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/icon/_my.png",
+				"selectedIconPath": "static/icon/my.png"
+			},{
+				"pagePath": "pages/search/index",
+				"text": "搜索",
+				"iconPath": "static/icon/_search.png",
+				"selectedIconPath": "static/icon/search.png"
+			},{
+				"pagePath": "pages/video/index",
+				"text": "视频",
+				"iconPath": "static/icon/_videocamera.png",
+				"selectedIconPath": "static/icon/videocamera.png"
+			}
+		]
+	}
+	
+}
